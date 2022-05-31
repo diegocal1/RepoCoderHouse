@@ -1,0 +1,169 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    color: azure;
+    background-color: black;
+}
+.neon{
+ 
+        color: #fff;
+       
+        text-shadow:
+            0 0 5px rgba(0,178,255,1),
+            0 0 10px rgba(0,178,255,1),
+            0 0 20px rgba(0,178,255,1),
+            0 0 40px rgba(38,104,127,1),
+            0 0 80px rgba(38,104,127,1),
+            0 0 90px rgba(38,104,127,1),
+            0 0 100px rgba(38,104,127,1),
+            0 0 140px rgba(38,104,127,1),
+            0 0 180px rgba(38,104,127,1);
+            text-align: center;
+    }
+
+
+   
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(214, 31, 107),
+        0 0 10px rgb(255, 0, 128),
+        0 0 20px rgb(245, 152, 180),
+        0 0 40px rgb(238, 132, 164),
+        0 0 80px rgba(238, 132, 164),
+        0 0 90px rgba(238, 132, 164),
+        0 0 100px rgba(238, 132, 164),
+        0 0 140px rgba(238, 132, 164),
+        0 0 180px rgba(238, 132, 164);
+
+    
+}
+.primerseccion{
+    background-color: rgb(235, 49, 89);
+    padding: 10%;
+}
+.listaservicios{
+display: flex;
+justify-content: center;
+}
+.listalogos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+form{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/687/802/393/neon-purple-pink-simple-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+
+.contenedorvideo{
+    margin-top: 300px;
+   display: flex;
+   justify-content: center;
+}
+
+
+.grid{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+.cajagrid{
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(235, 49, 89);
+    margin: 15px;
+    color: black;
+    text-align: center;
+    float: left;
+}
+footer{
+    margin-top: 15%;
+    border: solid;
+    }
+
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.quienesomos1{
+    background-color: rgb(105, 11, 82);
+    padding: 50px;
+}
+.quienesomos2{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: blueviolet;  
+}
+.contenedorformulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contenedorimagen{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+        
+   
+
+    @media only screen and (min-width: 768px)
+     {
+        .body {background: blue;}
+      } 
+      
+    
+       
+    .grid{
+
+        display: flex;
+    }
+
+    .cajagrid{
+       float: left;
+      
+    }
+   
+   
+    .contenedorformulario{
+      width: 95%;
+      display: flex;
+      margin:auto;
+    }
+    form{
+        width: 50%;
+        font-size: small;
+        align-items: left;
+    }
+    textarea{
+        width: 160px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+
+    
+
+
+    
+    
+  
