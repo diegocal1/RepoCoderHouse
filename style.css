@@ -303,8 +303,11 @@ footer{
     transition:1s;
     transition-delay: 0.75s;
 }
+.contenedorformulario:hover{
+    transform: scale(1.5);
+    transition-delay: 0.75s;
+}
 
-    
 
     
 
