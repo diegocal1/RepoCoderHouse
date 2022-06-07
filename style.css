@@ -332,6 +332,9 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
         margin: auto;
         padding: 5%;
     }
+    .video{
+        width: 335px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -348,7 +351,10 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
     }
     .hijo{
         margin: auto;
-        padding: 5%;
+        justify-content: center;
+    }
+    .video{
+        width: 335px;
     }
 }
     
