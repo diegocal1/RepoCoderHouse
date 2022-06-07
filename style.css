@@ -298,6 +298,8 @@ footer{
     transition-delay: 0.75s;
 }
 /*Inicio parte responsive*/
+/*Nota para el tutor
+Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiarme*/
 
 
 @media screen and (max-width:1920px) {
@@ -316,9 +318,20 @@ footer{
 
 @media screen and (max-width:800px) {
     body{
-        background-color: rgb(166, 149, 226);
+        background-color: rgb(0, 0, 0);
     }
-    
+    .primeraseccion{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .primerseccion{
+        margin: auto;
+    }
+    .hijo{
+        margin: auto;
+        padding: 5%;
+    }
 }
 
 @media screen and (max-width:400px) {
