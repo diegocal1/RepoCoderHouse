@@ -347,7 +347,7 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
        
     }
     .primerseccion{
-        margin: auto;
+        margin: 30px;
     }
     .hijo{
         margin: auto;
@@ -355,6 +355,15 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
     }
     .video{
         width: 335px;
+    }
+    .header{
+        width: 50%;
+    }
+    .pie{
+        margin: 8px;
+    }
+    .imagen4{
+        width: 100%;
     }
 }
     
