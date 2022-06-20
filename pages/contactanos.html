@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=" Plataforma que ofrece servicios para creacion de contenido dígital,logos, publicaciones para redes sociales, videos, edicion de fotografías y más"/>
     <meta name="keywords" content="Servicios digitales, creación de contenidos, diseño web, creacion y edición de videos, creación de logos, publicidad, diseño gráfico, desarrollo web, emprendimiento, herramientas para emprendedores, redes sociales, freelancers,catálogos, edición de contenido, portafolio,"/>
-    <title>Quiénes Somos - Imagine Servicios Digitales </title>
-
+    <title>Contáctanos - Imagine Servicios Digitales </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +16,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <!--Segunda fuente NEUTON-->
 <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&family=Oswald:wght@300&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../css/style.css">
 <!--Tercera fuente SERIF DISPLAY-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,44 +25,51 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Neuton:wght@300&family=Oswald:wght@300&family=Poiret+One&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+</head>
 <body>
     <header>
-        <img src="imagenes/imagen6.jpg" alt="" width="100%" height=450px>
+        <img src="../imagenes/imagen6.jpg" alt="" width="100%" height=450px>
         </header>
-    <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="quienessomos.html">Quiénes Somos</a></li>
-        <li><a href="quehacemos.html">Qué hacemos</a></li>
-        <li><a href="portafolio.html">Portafolio</a></li>
-        <li><a href="contactanos.html">Contáctanos</a></li>
-    </ul>
-    <div #titulo>
-        <h1>¡Imagina!</h1>
-        <h2>Nosotros lo hacemos posible</h2>
-
-<br>
-<div class="contenedor2">
-
-<div class="quienesomos1">
-<p>Imagine es una iniciativa  para ayudar a otros emprendedores</p>
-<p>Queremos acompañarte a crecer mientras nosotros expandemos nuestro portafolio</p>
-<p> <strong>Unidos somos mejor</strong> , por eso combinamos nuestros talentos</p>
-<br>
-</div>
-
-<div class="quienesomos2">
-<p>Grupo de entusiastas por la tecnología, diseño y fotografía que buscamos apoyar a emprendedores como nosotros, haciendo realidad sus ideas</p>
-<p>Hemos trabajado con diferentes rubros, <strong> tiendas de ropa, e-comerce, agencias turisticas, joyerias, restaurantes.</strong></p>
-<p>Generamos su contenido digital para redes sociales, páginas web, videos informativos, papeleráa, imagen corporativa</p>
-</div>
-
-</div>
-
-<div class="contenedorimagen">
-    
-    <div class="contenedorquehacemos">
-        <img class="imagen4"src="imagenes/imagen4.jpg" alt="">
-    </div>
+        
+    <nav class="menunav">
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="quienessomos.html">Quiénes Somos</a></li>
+            <li><a href="quehacemos.html">Qué hacemos</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+            
+        </ul>
+    </nav>
+    <h2>Contactanos</h2>
+   <div class="contenedorformulario">
+    <form action="#">
+     
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido">
+        <br>
+        <label for="telefono">Telefono</label>
+        <input type="numero" name="numero" id="">
+        <br>
+        <label for="correo">Email</label>
+        <input type="email" name="email" id="">
+        <br>
+        <label for="nombre">En qué te podemos ayudar</label>
+        <select name="color" id="color">
+            <option value="r">Web</option>
+            <option value="a">Diseño</option>
+            <option value="v">Redes Sociales</option>
+          </select>
+          <br>
+          <label for="Descripcion">Cuéntanos más</label>
+          <br>
+          <textarea name="areadetexto" id="" cols="30" rows="10"></textarea>
+          <br>
+          <label for="Enviar">Enviar</label>
+<input type="submit" value="">
+    </form>
 </div>
 
 <footer>
@@ -77,5 +83,4 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
-
 </html>
