@@ -220,6 +220,9 @@ footer{
     padding-top: 800px;
     margin-top: 850px;
 }
+#carouselExampleSlidesOnly{
+    padding: 100px 100px 100px 100px;
+}
 
 .dentro{
     width: 100%;
