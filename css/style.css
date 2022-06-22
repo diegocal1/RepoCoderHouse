@@ -1,7 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: black;
     font-family: 'Roboto Slab', serif;
     color: azure;
+    
     
 }
 .neon{
@@ -39,6 +45,8 @@ body{
         0 0 100px rgba(238, 132, 164),
         0 0 140px rgba(238, 132, 164),
         0 0 180px rgba(238, 132, 164);
+        background-color: #1d1b1b;
+        padding: auto;
 }
 
 h1{
@@ -132,7 +140,8 @@ form{
 }
 footer{
     margin-top: 15%;
-    border: solid;
+    background-color: #1d1b1b;
+    width: 100%;
     }
 
 .contenedor2{
@@ -208,6 +217,7 @@ footer{
     
 }
 .carousel-control-prev,.carousel-control-next{
+    padding-top: 800px;
     margin-top: 850px;
 }
 
@@ -227,6 +237,13 @@ footer{
     color: #fff;
     
 }
+.contenedorboton{
+   padding: auto;
+    margin-left: 600px;
+    margin-right: 200px;
+
+  
+}
 .btn-neon{
     position: relative;
     display: inline-block;
@@ -237,6 +254,7 @@ footer{
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    
 }
 .btn-neon:hover{
     background-color: fuchsia;
@@ -297,6 +315,29 @@ footer{
     transform: scale(1.5);
     transition-delay: 0.75s;
 }
+
+
+.pie{
+    margin-top: 200px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+   
+}
+.hijopie{
+    justify-content: center;
+    margin: auto    ;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+
+
+
+
 /*Inicio parte responsive*/
 /*Nota para el tutor
 Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiarme*/
@@ -308,14 +349,14 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
     }
     
 }
-
+/*desktop*/
 @media screen and (max-width:1280px) {
     body{
         background-color: black
     }
     
 }
-
+/*mobile*/
 @media screen and (max-width:800px) {
     body{
         background-color: rgb(0, 0, 0);
@@ -335,11 +376,22 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
     .video{
         width: 335px;
     }
+    .contenedorcarrusel{
+        height: 50%;
+        width: 100%;
+    }
+    .contenedorboton{
+        margin-left: 270px;
+}
+.pie{
+    margin-top: 200px;
+    margin-right: 20px;
 }
 
+}
 @media screen and (max-width:400px) {
     body{
-        background-color:rgb(0, 0, 0)
+        background-color:rgb(15, 9, 9)
     }
     .primeraseccion{
         display: flex;
@@ -367,5 +419,3 @@ Aún se me dificulta el tema de las Medias Q asi que dejo los colores para guiar
     }
 }
     
-    
-  
